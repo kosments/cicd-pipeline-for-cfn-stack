@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: 2010-09-09
+
+Resources:
+  testBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: test-s3-bucket
+    #   Tags:
+    #     - Key: "Name"
+    #       Value: "UpdateComplete"
